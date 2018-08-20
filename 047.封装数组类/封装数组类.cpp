@@ -61,8 +61,8 @@ public:
 	}
 
 private:
-	int size;
-	Point* point;
+	int size; // 数组大小
+	Point* point; //指向动态数组首地址
 };
 
 int main()
